@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    scroll-behavior: smooth;
+    background-color: #f2ecff;
+    font-family: poppins;
+}
+.cursor{
+    background-color: #00c997;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    position: fixed;
+}
