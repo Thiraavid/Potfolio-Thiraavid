@@ -23,7 +23,7 @@ const Skills = () => {
       <motion.h2 initial={{opacity:0,x:-100}} whileInView={{opacity:1,x:0,transition:{
   duration:1,
 }}} className="text-3xl  font-bold mb-5 max-sm:text-xl">What Can I Do</motion.h2>
-      <div className="container h-auto w-full grid grid-cols-4 max-md:grid-cols-2 max-sm:grid-cols-1 gap-10 place-items-center">
+      <div className="container h-auto w-full grid grid-cols-4 max-md:grid-cols-2 max-sm:grid-cols-1 gap-10 place-items-center ">
         <SkillsProps img={HTML} name="HTML" />
         <SkillsProps img={CSS} name="CSS" />
         <SkillsProps img={JavaScript} name="JavaScript" />

@@ -5,8 +5,8 @@ const SkillsProps = (props) => {
     <>
       <motion.div initial={{opacity:0,y:50}} whileInView={{opacity:1,y:0,transition:{
   duration:1,
-}}} className="box w-[200px] h-[100px] flex justify-center p-5 items-center rounded-lg shadow-lg  shadow-slate-700 gap-x-10 ">
-        <div className="left">
+}}} className="box w-[200px] h-[100px] flex justify-center p-5 items-center rounded-lg shadow-lg  shadow-slate-700 gap-x-10 hover:-translate-y-2">
+        <div className="left hover:-translate-y-1 ease-in duration-200">
           <img src={props.img} alt={props.name} />
         </div>
         <div className="right text-md font-bold ">
