@@ -9,7 +9,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="hero-wrapper flex justify-center items-center flex-col text-center w-auto h-[90vh] max-sm:m-10 gap-y-7 max-sm:h-auto max-sm:relative max-sm:top-[70px] max-sm:mb-24 ">
+      <div className=" hero-wrapper flex justify-center items-center flex-col text-center w-auto h-[90vh] max-sm:m-10 gap-y-7 max-sm:h-auto max-sm:relative max-sm:top-[70px] max-sm:mb-24  ">
         <motion.h2 initial={{opacity:0,y:10}}
         animate={{opacity:1,y:0,transition:{
           duration:0.5,delay:1
